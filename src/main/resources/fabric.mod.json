@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "gems",
+	"version": "${version}",
+	"name": "gems",
+	"description": "A Minecraft mod that adds jewelry, gems and new tools",
+	"authors": [
+		"TumDoka_"
+	],
+	"contact": {
+		"homepage": "",
+		"sources": ""
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/gems/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"tumdoka.gems.Gems"
+		],
+		"client": [
+			"tumdoka.gems.GemsClient"
+		],
+		"fabric-datagen": [
+			"tumdoka.gems.GemsDataGenerator"
+		]
+	},
+	"mixins": [
+		"gems.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.10",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

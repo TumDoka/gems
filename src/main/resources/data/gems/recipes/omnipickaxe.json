@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "gems:omniessence"
+  },
+  "base": {
+    "item": "minecraft:netherite_pickaxe"
+  },
+  "result": {
+    "item": "gems:omnipickaxe"
+  },
+  "template": {
+    "tag": "gems:jew"
+  }
+}

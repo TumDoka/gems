@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "#": {
+      "item": "gems:polished_aventurine"
+    },
+    "@": {
+      "item": "minecraft:string"
+    }
+  },
+  "pattern": [
+    "@ @",
+    "# #",
+    " # "
+  ],
+  "result": {
+    "count": 1,
+    "item": "gems:aventurine_necklace"
+  }
+}
