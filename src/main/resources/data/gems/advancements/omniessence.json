@@ -1,0 +1,31 @@
+{
+  "display": {
+    "icon": {
+      "item": "gems:omniessence"
+    },
+    "title": {
+      "translate": "advancements.gems.title.omniessence"
+    },
+    "description": {
+      "translate": "advancements.gems.description.omniessence"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "gems:geode",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "gems:omniessence"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

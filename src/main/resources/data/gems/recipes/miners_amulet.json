@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "#": {
+      "item": "minecraft:gold_nugget"
+    },
+    "@": {
+      "item": "gems:polished_opal"
+    }
+  },
+  "pattern": [
+    "# #",
+    "# #",
+    " @ "
+  ],
+  "result": {
+    "count": 1,
+    "item": "gems:miners_amulet"
+  }
+}

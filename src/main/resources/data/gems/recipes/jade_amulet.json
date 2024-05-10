@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "#": {
+      "item": "minecraft:string"
+    },
+    "@": {
+      "item": "gems:polished_jade"
+    }
+  },
+  "pattern": [
+    "# #",
+    "# #",
+    " @ "
+  ],
+  "result": {
+    "count": 1,
+    "item": "gems:jade_amulet"
+  }
+}

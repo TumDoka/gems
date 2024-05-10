@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "#": {
+      "item": "minecraft:gold_ingot"
+    },
+    "@": {
+      "item": "gems:polished_garnet"
+    }
+  },
+  "pattern": [
+    " @ ",
+    "# #",
+    " # "
+  ],
+  "result": {
+    "count": 1,
+    "item": "gems:garnet_ring"
+  }
+}
